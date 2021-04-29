@@ -24,12 +24,12 @@ public class Prescription
 	@Column(name = "prescription_desc")
 	private String prescriptionDesc;
 	
-	public String getPrescriptionId()
+	public int getPrescriptionId()
 	{
 		return prescriptionId;
 	}
 	
-	public void setPrescriptionId(String prescriptionId)
+	public void setPrescriptionId(int prescriptionId)
 	{
 		this.prescriptionId = prescriptionId;
 	}

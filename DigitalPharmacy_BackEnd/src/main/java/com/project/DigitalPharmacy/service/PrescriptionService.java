@@ -15,7 +15,7 @@ public class PrescriptionService
 	
 	public Prescription savePrescription(Prescription prescription)
 	{
-		return prescriptionRepository.save(user);
+		return prescriptionRepository.save(prescription);
 	}
 	
 	public Prescription findByUserId(String userId)
